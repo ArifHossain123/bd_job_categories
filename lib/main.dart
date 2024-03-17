@@ -41,7 +41,7 @@ class BdJobCategories extends StatelessWidget {
             ),
           ],
         ),
-        body: Column(
+        body: ListView(
           children: [
             const SizedBox(
               height: 10,
@@ -82,13 +82,7 @@ class BdJobCategories extends StatelessWidget {
                 color: Color.fromARGB(255, 246, 229, 229),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8),
-              child: Container(
-                height: 50,
-                color: Color.fromARGB(255, 240, 230, 230),
-              ),
-            ),
+            
           ],
         ),
       ),
