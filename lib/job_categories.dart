@@ -28,60 +28,61 @@ class _MyHomePageState extends State<MyHomePage> {
         //     ),
         //   ),
         // ),
-        title: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Expanded(
-              child: SizedBox(
-                height: 30,
-                child: TextField(
-                  textAlignVertical: TextAlignVertical.center,
-                  decoration: InputDecoration(
-                    filled: true,
-                    fillColor: Color(0xFFFFFFFF),
-                    isDense: true,
-                    hintText: 'Search Jobs',
-                    hintStyle: TextStyle(
-                      color: Color(0xFFB3B1B1),
-                    ),
-                    prefixIcon: Icon(
-                      Icons.search,
-                      size: 26,
-                      color: Colors.black,
-                    ),
-                    contentPadding: EdgeInsets.symmetric(
-                      // horizontal: 10,
-                      vertical: 5,
-                    ),
-                  ),
-                ),
-              ),
-            )
-          ],
-        ),
-        actions: <Widget>[
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.attach_money,
-              color: Colors.white,
-            ),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.notifications,
-              color: Colors.white,
-            ),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.email,
-              color: Colors.white,
-            ),
-          ),
-        ],
+      //   title: const Row(
+      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //     children: <Widget>[
+      //       Expanded(
+      //         child: SizedBox(
+      //           height: 30,
+      //           child: TextField(
+      //             textAlignVertical: TextAlignVertical.center,
+      //             decoration: InputDecoration(
+      //               filled: true,
+      //               fillColor: Color(0xFFFFFFFF),
+      //               isDense: true,
+      //               hintText: 'Search Jobs',
+      //               hintStyle: TextStyle(
+      //                 color: Color(0xFFB3B1B1),
+      //               ),
+      //               prefixIcon: Icon(
+      //                 Icons.search,
+      //                 size: 26,
+      //                 color: Colors.black,
+      //               ),
+      //               contentPadding: EdgeInsets.symmetric(
+      //                 // horizontal: 10,
+      //                 vertical: 5,
+      //               ),
+      //             ),
+      //           ),
+      //         ),
+      //       )
+      //     ],
+      //   ),
+      //   actions: <Widget>[
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(
+      //         Icons.attach_money,
+      //         color: Colors.white,
+      //       ),
+      //     ),
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(
+      //         Icons.notifications,
+      //         color: Colors.white,
+      //       ),
+      //     ),
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(
+      //         Icons.email,
+      //         color: Colors.white,
+      //       ),
+      //     ),
+      //   ],
+      // ),
       ),
       body: Column(
         children: [
