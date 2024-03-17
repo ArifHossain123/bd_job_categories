@@ -15,12 +15,20 @@ class BdJobCategories extends StatelessWidget {
         appBar: AppBar(
           elevation: 10,
           backgroundColor: Color.fromARGB(255, 184, 0, 150),
-         // backgroundColor:const Color.fromARGB(255, 147, 0, 127),
+          // backgroundColor:const Color.fromARGB(255, 147, 0, 127),
           leading: IconButton(
             onPressed: () {},
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
+            ),
+          ),
+          title: const Text(
+            'Job Categories',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 28,
             ),
           ),
         ),
