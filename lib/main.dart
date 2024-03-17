@@ -97,7 +97,7 @@ class BdJobCategories extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             const SizedBox(
@@ -116,7 +116,9 @@ class BdJobCategories extends StatelessWidget {
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 237, 212, 212),
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8, color: Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -125,14 +127,28 @@ class BdJobCategories extends StatelessWidget {
               padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
-                color: const Color.fromARGB(255, 231, 209, 209),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                    width: .8,
+                    color: Color.fromARGB(255, 188, 188, 188),
+                  ),
+                  borderRadius: BorderRadius.circular(8),
+                ),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
-                color: const Color.fromARGB(255, 246, 229, 229),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                    width: .8,
+                    color: const Color.fromARGB(255, 188, 188, 188),
+                  ),
+                  borderRadius: BorderRadius.circular(8),
+                ),
               ),
             ),
           ],
