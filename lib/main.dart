@@ -1,4 +1,3 @@
-import 'package:bd_job_categories/job_categories.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,12 +11,20 @@ class BdJobCategories extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        
-        useMaterial3: true,
+      home: Scaffold(
+        appBar: AppBar(
+          elevation: 10,
+          backgroundColor: Color.fromARGB(255, 184, 0, 150),
+         // backgroundColor:const Color.fromARGB(255, 147, 0, 127),
+          leading: IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.white,
+            ),
+          ),
+        ),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
