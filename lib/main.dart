@@ -64,44 +64,55 @@ class BdJobCategories extends StatelessWidget {
               children: [
                 Container(
                   height: 110,
-                  width: 110,
+                  width: 120,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                     border: Border.all(
                       width: 1,
-                      color: Color.fromARGB(255, 147, 0, 127),
+                      color: const Color.fromARGB(255, 147, 0, 127),
                     ),
                   ),
                 ),
                 Container(
                   height: 110,
-                  width: 110,
+                  width: 120,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                     border: Border.all(
                       width: 1,
-                      color: Color.fromARGB(255, 147, 0, 127),
+                      color: const Color.fromARGB(255, 147, 0, 127),
                     ),
                   ),
                 ),
                 Container(
                   height: 110,
-                  width: 110,
+                  width: 120,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                     border: Border.all(
                       width: 1,
-                      color: Color.fromARGB(255, 147, 0, 127),
+                      color: const Color.fromARGB(255, 147, 0, 127),
                     ),
                   ),
                 ),
               ],
             ),
             SizedBox(
-              height: 50,
+              height: 30,
+            ),
+            const SizedBox(
+              height: 40,
+              child: Text(
+                '  Functional Categories',
+                style: TextStyle(
+                  color: Color.fromARGB(255, 147, 0, 127),
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
             Padding(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
@@ -114,14 +125,14 @@ class BdJobCategories extends StatelessWidget {
               padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
-                color: Color.fromARGB(255, 231, 209, 209),
+                color: const Color.fromARGB(255, 231, 209, 209),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
-                color: Color.fromARGB(255, 246, 229, 229),
+                color: const Color.fromARGB(255, 246, 229, 229),
               ),
             ),
           ],
