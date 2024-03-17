@@ -1,3 +1,4 @@
+//import 'package:bd_job_categories/list_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,12 +59,53 @@ class BdJobCategories extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 110,
+                  width: 110,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    border: Border.all(
+                      width: 1,
+                      color: Color.fromARGB(255, 147, 0, 127),
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 110,
+                  width: 110,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    border: Border.all(
+                      width: 1,
+                      color: Color.fromARGB(255, 147, 0, 127),
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 110,
+                  width: 110,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    border: Border.all(
+                      width: 1,
+                      color: Color.fromARGB(255, 147, 0, 127),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
             Padding(
               padding: EdgeInsets.all(8),
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
-                  color:const Color.fromARGB(255, 237, 212, 212),
+                  color: const Color.fromARGB(255, 237, 212, 212),
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -82,7 +124,6 @@ class BdJobCategories extends StatelessWidget {
                 color: Color.fromARGB(255, 246, 229, 229),
               ),
             ),
-            
           ],
         ),
       ),
