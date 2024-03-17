@@ -31,6 +31,15 @@ class BdJobCategories extends StatelessWidget {
               fontSize: 28,
             ),
           ),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                Icons.sort,
+                color: Colors.white,
+              ),
+            ),
+          ],
         ),
       ),
     );
