@@ -66,7 +66,8 @@ class BdJobCategories extends StatelessWidget {
                   height: 110,
                   width: 120,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 255, 255),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
                     border: Border.all(
                       width: 1,
                       color: const Color.fromARGB(255, 147, 0, 127),
@@ -77,7 +78,8 @@ class BdJobCategories extends StatelessWidget {
                   height: 110,
                   width: 120,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 255, 255),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
                     border: Border.all(
                       width: 1,
                       color: const Color.fromARGB(255, 147, 0, 127),
@@ -88,11 +90,18 @@ class BdJobCategories extends StatelessWidget {
                   height: 110,
                   width: 120,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 255, 255),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
                     border: Border.all(
                       width: 1,
                       color: const Color.fromARGB(255, 147, 0, 127),
                     ),
+                  ),
+                  child: const Column(
+                    children: [
+                      Row(),
+                      Row(),
+                    ],
                   ),
                 ),
               ],
