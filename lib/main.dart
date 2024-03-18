@@ -282,6 +282,7 @@ class BdJobCategories extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Column(children: [Text('351'),],),
                   ],
                 ),
               ),
