@@ -97,18 +97,40 @@ class BdJobCategories extends StatelessWidget {
                       color: const Color.fromARGB(255, 147, 0, 127),
                     ),
                   ),
-                  child: const Column(
+                  child: Column(
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: [Icon(Icons.calculate),
-                        SizedBox(width: 10,), Text('300'),],
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            child: Icon(Icons.calculate),
+                            decoration: const BoxDecoration(
+                              color: Color.fromARGB(101, 210, 141, 255),
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            '102',
+                            style: TextStyle(
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold,
+                              color: Color.fromARGB(255, 147, 0, 127),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: 8,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Engineer\n/Architect',
+                            'Production\n/Operation',
                           )
                         ],
                       ),
@@ -138,7 +160,8 @@ class BdJobCategories extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                      width: .8, color: const Color.fromARGB(255, 188, 188, 188)),
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
