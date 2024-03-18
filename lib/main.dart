@@ -93,7 +93,7 @@ class BdJobCategories extends StatelessWidget {
                               width: 10,
                             ),
                             const Text(
-                              '102',
+                              '300',
                               style: TextStyle(
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold,
@@ -110,7 +110,7 @@ class BdJobCategories extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Production\n/Operation',
+                            'Engineer\n/Architect',
                           )
                         ],
                       ),
@@ -148,7 +148,7 @@ class BdJobCategories extends StatelessWidget {
                               width: 10,
                             ),
                             const Text(
-                              '102',
+                              '166',
                               style: TextStyle(
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold,
@@ -165,7 +165,7 @@ class BdJobCategories extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Production\n/Operation',
+                            'Medical\n/Pharma',
                           )
                         ],
                       ),
