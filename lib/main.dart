@@ -99,8 +99,19 @@ class BdJobCategories extends StatelessWidget {
                   ),
                   child: const Column(
                     children: [
-                      Row(),
-                      Row(),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Icon(Icons.calculate),
+                        SizedBox(width: 10,), Text('300'),],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Engineer\n/Architect',
+                          )
+                        ],
+                      ),
                     ],
                   ),
                 ),
@@ -127,7 +138,7 @@ class BdJobCategories extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                      width: .8, color: Color.fromARGB(255, 188, 188, 188)),
+                      width: .8, color: const Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -140,7 +151,7 @@ class BdJobCategories extends StatelessWidget {
                   color: Colors.white,
                   border: Border.all(
                     width: .8,
-                    color: Color.fromARGB(255, 188, 188, 188),
+                    color: const Color.fromARGB(255, 188, 188, 188),
                   ),
                   borderRadius: BorderRadius.circular(8),
                 ),
