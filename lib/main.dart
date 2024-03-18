@@ -274,15 +274,29 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            'Accounting/Finance',
+                            ' Accounting/Finance',
                             style: TextStyle(
-                              fontSize: 24,
+                              fontSize: 20,
                             ),
                           ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
                         ],
                       ),
                     ),
-                    Column(children: [Text('351'),],),
                   ],
                 ),
               ),
@@ -294,10 +308,112 @@ class BdJobCategories extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                    width: .8,
-                    color: const Color.fromARGB(255, 188, 188, 188),
-                  ),
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+           Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -308,10 +424,344 @@ class BdJobCategories extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                    width: .8,
-                    color: const Color.fromARGB(255, 188, 188, 188),
-                  ),
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8),
+              child: Container(
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                      width: .8,
+                      color: const Color.fromARGB(255, 188, 188, 188)),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            ' Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 80,
+                          ),
+                          const Row(
+                            children: [
+                              Text(
+                                '351',
+                                style: TextStyle(
+                                  color: Color.fromARGB(255, 147, 0, 127),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
