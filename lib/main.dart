@@ -62,7 +62,7 @@ class BdJobCategories extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                Container(
+                 Container(
                   height: 110,
                   width: 120,
                   decoration: BoxDecoration(
@@ -74,7 +74,8 @@ class BdJobCategories extends StatelessWidget {
                     ),
                   ),
                 ),
-                Container(
+          
+                     Container(
                   height: 110,
                   width: 120,
                   decoration: BoxDecoration(
@@ -85,7 +86,51 @@ class BdJobCategories extends StatelessWidget {
                       color: const Color.fromARGB(255, 147, 0, 127),
                     ),
                   ),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              height: 30,
+                              width: 35,
+                              decoration: BoxDecoration(
+                                color: const Color.fromARGB(101, 210, 141, 255),
+                                borderRadius: BorderRadius.circular(3),
+                              ),
+                              child: const Icon(Icons.calculate),
+                            ),
+                            const SizedBox(
+                              width: 10,
+                            ),
+                            const Text(
+                              '102',
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                                color: Color.fromARGB(255, 147, 0, 127),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 3,
+                      ),
+                      const Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Production\n/Operation',
+                          )
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
+           
                 Container(
                   height: 110,
                   width: 120,
@@ -107,8 +152,9 @@ class BdJobCategories extends StatelessWidget {
                             Container(
                               height: 30,
                               width: 35,
-                              decoration: const BoxDecoration(
-                                color: Color.fromARGB(101, 210, 141, 255),
+                              decoration:  BoxDecoration(
+                                color:const Color.fromARGB(101, 210, 141, 255),
+                                borderRadius: BorderRadius.circular(3),
                               ),
                               child: const Icon(Icons.calculate),
                             ),
@@ -126,10 +172,10 @@ class BdJobCategories extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 3,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
