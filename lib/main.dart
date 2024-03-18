@@ -332,18 +332,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Agro (Animal/Fisheries)',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 60,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '60',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
