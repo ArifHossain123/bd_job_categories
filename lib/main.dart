@@ -238,7 +238,7 @@ class BdJobCategories extends StatelessWidget {
                 '  Functional Categories',
                 style: TextStyle(
                   color: Color.fromARGB(255, 147, 0, 127),
-                  fontSize: 20,
+                  fontSize: 24,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -253,6 +253,36 @@ class BdJobCategories extends StatelessWidget {
                       width: .8,
                       color: const Color.fromARGB(255, 188, 188, 188)),
                   borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            height: 30,
+                            width: 35,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(101, 210, 141, 255),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                            child: const Icon(Icons.calculate),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          const Text(
+                            'Accounting/Finance',
+                            style: TextStyle(
+                              fontSize: 24,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
