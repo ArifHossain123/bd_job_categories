@@ -99,32 +99,35 @@ class BdJobCategories extends StatelessWidget {
                   ),
                   child: Column(
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Container(
-                            height: 30,
-                            width: 35,
-                            child: Icon(Icons.calculate),
-                            decoration: const BoxDecoration(
-                              color: Color.fromARGB(101, 210, 141, 255),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              height: 30,
+                              width: 35,
+                              decoration: const BoxDecoration(
+                                color: Color.fromARGB(101, 210, 141, 255),
+                              ),
+                              child: const Icon(Icons.calculate),
                             ),
-                          ),
-                          const SizedBox(
-                            width: 10,
-                          ),
-                          const Text(
-                            '102',
-                            style: TextStyle(
-                              fontSize: 28,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 147, 0, 127),
+                            const SizedBox(
+                              width: 10,
                             ),
-                          ),
-                        ],
+                            const Text(
+                              '102',
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                                color: Color.fromARGB(255, 147, 0, 127),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       SizedBox(
-                        height: 8,
+                        height: 3,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
