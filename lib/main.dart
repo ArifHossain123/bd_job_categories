@@ -507,18 +507,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Commercial             ',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 100,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '76',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -565,18 +565,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Company Sesretary',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 90,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '    7',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -623,18 +623,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Customer Service',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 100,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                ' 125',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -681,18 +681,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Data Entry/Operator/BPO',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 47,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '53',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -739,18 +739,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Design/Creative',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 110,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '   88',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
