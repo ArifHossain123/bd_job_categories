@@ -332,13 +332,13 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Agro (Animal/Fisheries)',
+                            ' Agro (Plant/Animal/Fisheries)',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 60,
+                            width: 6,
                           ),
                           const Row(
                             children: [
@@ -402,7 +402,7 @@ class BdJobCategories extends StatelessWidget {
                           const Row(
                             children: [
                               Text(
-                                '  53',
+                                ' 53',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -449,18 +449,18 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Beauty Care/Fitness',
+                            ' Beauty Care/Health & Fitness',
                             style: TextStyle(
                               fontSize: 20,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 1,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '  11',
+                                ' 11',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -576,7 +576,7 @@ class BdJobCategories extends StatelessWidget {
                           const Row(
                             children: [
                               Text(
-                                '    7',
+                                '   7',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -629,7 +629,7 @@ class BdJobCategories extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(
-                            width: 100,
+                            width: 94,
                           ),
                           const Row(
                             children: [
