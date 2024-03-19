@@ -82,7 +82,7 @@ class BdJobCategories extends StatelessWidget {
                           children: [
                             Container(
                               height: 30,
-                              width: 35,
+                              width: 30,
                               decoration: BoxDecoration(
                                 color: const Color.fromARGB(101, 210, 141, 255),
                                 borderRadius: BorderRadius.circular(3),
@@ -95,7 +95,7 @@ class BdJobCategories extends StatelessWidget {
                             const Text(
                               '300',
                               style: TextStyle(
-                                fontSize: 28,
+                                fontSize: 20,
                                 fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 147, 0, 127),
                               ),
@@ -137,7 +137,7 @@ class BdJobCategories extends StatelessWidget {
                           children: [
                             Container(
                               height: 30,
-                              width: 35,
+                              width: 30,
                               decoration: BoxDecoration(
                                 color: const Color.fromARGB(101, 210, 141, 255),
                                 borderRadius: BorderRadius.circular(3),
@@ -150,7 +150,7 @@ class BdJobCategories extends StatelessWidget {
                             const Text(
                               '166',
                               style: TextStyle(
-                                fontSize: 28,
+                                fontSize: 20,
                                 fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 147, 0, 127),
                               ),
@@ -192,7 +192,7 @@ class BdJobCategories extends StatelessWidget {
                           children: [
                             Container(
                               height: 30,
-                              width: 35,
+                              width: 30,
                               decoration: BoxDecoration(
                                 color: const Color.fromARGB(101, 210, 141, 255),
                                 borderRadius: BorderRadius.circular(3),
@@ -205,7 +205,7 @@ class BdJobCategories extends StatelessWidget {
                             const Text(
                               '102',
                               style: TextStyle(
-                                fontSize: 28,
+                                fontSize: 20,
                                 fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 147, 0, 127),
                               ),
