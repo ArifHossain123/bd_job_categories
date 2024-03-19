@@ -359,15 +359,16 @@ class BdJobCategories extends StatelessWidget {
                 ),
               ),
             ),
-           Padding(
+            Padding(
               padding: const EdgeInsets.all(8),
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                      width: .8,
-                      color: const Color.fromARGB(255, 188, 188, 188)),
+                    width: .8,
+                    color: const Color.fromARGB(255, 188, 188, 188),
+                  ),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Row(
@@ -390,7 +391,7 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Bank/Non-Bank Inst.',
                             style: TextStyle(
                               fontSize: 20,
                             ),
@@ -401,7 +402,7 @@ class BdJobCategories extends StatelessWidget {
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '  53',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
@@ -448,7 +449,7 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Accounting/Finance',
+                            ' Beauty Care/Fitness',
                             style: TextStyle(
                               fontSize: 20,
                             ),
@@ -459,7 +460,7 @@ class BdJobCategories extends StatelessWidget {
                           const Row(
                             children: [
                               Text(
-                                '351',
+                                '  11',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
                                   fontSize: 24,
