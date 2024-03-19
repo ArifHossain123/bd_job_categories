@@ -29,7 +29,7 @@ class BdJobCategories extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
-              fontSize: 28,
+              fontSize: 26,
             ),
           ),
           actions: [
@@ -52,7 +52,7 @@ class BdJobCategories extends StatelessWidget {
               textAlign: TextAlign.start,
               style: TextStyle(
                 color: Color.fromARGB(255, 147, 0, 127),
-                fontSize: 24,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -263,7 +263,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -276,11 +276,11 @@ class BdJobCategories extends StatelessWidget {
                           const Text(
                             ' Accounting/Finance',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 74,
                           ),
                           const Row(
                             children: [
@@ -288,10 +288,10 @@ class BdJobCategories extends StatelessWidget {
                                 '351',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
-                              )
+                              ),
                             ],
                           )
                         ],
@@ -321,7 +321,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -332,13 +332,13 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Agro (Plant/Animal/Fisheries)',
+                            ' Agro (Animal/Fisheries)',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 6,
+                            width: 53,
                           ),
                           const Row(
                             children: [
@@ -346,7 +346,7 @@ class BdJobCategories extends StatelessWidget {
                                 '60',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -380,7 +380,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -391,21 +391,21 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Bank/Non-Bank Inst.',
+                            ' Bank/Non-Bank Institution',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 80,
+                            width: 29,
                           ),
                           const Row(
                             children: [
                               Text(
-                                ' 53',
+                                '53',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -438,7 +438,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -451,19 +451,19 @@ class BdJobCategories extends StatelessWidget {
                           const Text(
                             ' Beauty Care/Health & Fitness',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 1,
+                            width: 5,
                           ),
                           const Row(
                             children: [
                               Text(
-                                ' 11',
+                                '11',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -496,7 +496,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -507,21 +507,21 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Commercial             ',
+                            ' Commercial',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 100,
+                            width: 150,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '76',
+                                '   76',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -554,7 +554,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -565,9 +565,9 @@ class BdJobCategories extends StatelessWidget {
                             width: 10,
                           ),
                           const Text(
-                            ' Company Sesretary',
+                            ' Company Secretary',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
@@ -579,7 +579,7 @@ class BdJobCategories extends StatelessWidget {
                                 '   7',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -612,7 +612,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -625,7 +625,7 @@ class BdJobCategories extends StatelessWidget {
                           const Text(
                             ' Customer Service',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
@@ -637,7 +637,7 @@ class BdJobCategories extends StatelessWidget {
                                 ' 125',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -670,7 +670,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -683,11 +683,11 @@ class BdJobCategories extends StatelessWidget {
                           const Text(
                             ' Data Entry/Operator/BPO',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 47,
+                            width: 39,
                           ),
                           const Row(
                             children: [
@@ -695,7 +695,7 @@ class BdJobCategories extends StatelessWidget {
                                 '53',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
@@ -728,7 +728,7 @@ class BdJobCategories extends StatelessWidget {
                         children: [
                           Container(
                             height: 30,
-                            width: 35,
+                            width: 30,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(101, 210, 141, 255),
                               borderRadius: BorderRadius.circular(3),
@@ -741,19 +741,19 @@ class BdJobCategories extends StatelessWidget {
                           const Text(
                             ' Design/Creative',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                           const SizedBox(
-                            width: 110,
+                            width: 130,
                           ),
                           const Row(
                             children: [
                               Text(
-                                '   88',
+                                '88',
                                 style: TextStyle(
                                   color: Color.fromARGB(255, 147, 0, 127),
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               )
