@@ -66,6 +66,7 @@ class BdJobCategories extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
+                      
                       Container(
                         height: 110,
                         width: 120,
@@ -250,11 +251,8 @@ class BdJobCategories extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Column(
-                    children: [
-                      HorizontalList(),
-                    ],
-                  ),
+                  Column(children: [HorizontalList(),],),
+                  
                 ],
               ),
             ),

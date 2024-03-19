@@ -5,9 +5,7 @@ class HorizontalList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Padding(
+    return Column(children: [Padding(
           padding: const EdgeInsets.all(8),
           child: Container(
             height: 50,
@@ -522,7 +520,6 @@ class HorizontalList extends StatelessWidget {
             ),
           ),
         ),
-      ],
-    );
+      ],);
   }
 }
